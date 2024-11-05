@@ -1,0 +1,29 @@
+
+.topnav {
+    background-color: #a5a4a4;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.instrucao {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+.contato {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav h1{
+    text-align: center;
+    
+}
+.titulo {
+    font-size:40px;
+}
