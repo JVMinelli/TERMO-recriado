@@ -27,3 +27,11 @@
 .titulo {
     font-size:40px;
 }
+.Quadrado1{
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    margin-top: 5%;
+    border: 1px solid black;
+    margin-left: 50%;
+}
