@@ -31,7 +31,32 @@
     height: 50px;
     width: 50px;
     background-color: #ffffff;
-    margin-top: 5%;
+    margin-top: 20px;
     border: 1px solid black;
     margin-left: 50%;
+    display: flex;
+    float: left;
+
+}
+.Quadrado2{
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin-right: 41%;
+    display: flex;
+}
+.Quadrado3{
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin-left: 44.5%;
+    display: flex;
+    position: absolute;
+    top: 167px;
 }
