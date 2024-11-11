@@ -12,10 +12,10 @@
     text-decoration: none;
     font-size: 20px;
   }
-.contato {
+.contato{
     float: right;
     color: #000000;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
@@ -26,6 +26,9 @@
 }
 .titulo {
     font-size:40px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
 }
 .Quadrado1{
     height: 50px;
@@ -58,5 +61,5 @@
     margin-left: 44.5%;
     display: flex;
     position: absolute;
-    top: 167px;
+    top: 138px;
 }
