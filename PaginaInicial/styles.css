@@ -1,8 +1,8 @@
 
-.topnav {
+.topnav  {
     background-color: #a5a4a4;
     overflow: hidden;
-    border-radius: 20px;
+    
 }
 .instrucao {
     float: left;
@@ -62,4 +62,57 @@
     display: flex;
     position: absolute;
     top: 138px;
+}
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 300px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  form div + div {
+    margin-top: 1em;
+  }
+  label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+  }
+  body {
+font-family:'Times New Roman', Times, serif;
+  }
+  input,
+textarea{
+
+  /* Para dar o mesmo tamanho a todos os campo de texto */
+  width: 300px;
+  height: 25px;
+  font-size: 15px;
+  
+
+  /* Para harmonizar o look & feel das bordas nos campos de texto*/
+  border: 1px solid #999;
+}
+
+.button {
+    /* Para posicionar os botões para a mesma posição dos campos de texto */
+    padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
+  }
+  button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+    margin-left: 0.5em;
+  }
+  
+footer {
+    background-color: #a5a4a4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 1350px;
+    
 }
