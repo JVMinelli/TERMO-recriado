@@ -108,11 +108,33 @@ textarea{
   
 footer {
     background-color: #a5a4a4;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
+    color: rgb(0, 0, 0);
+    position:fixed;
     bottom: 0;
     width: 1350px;
-    
+    overflow: hidden;
+}
+.configuracao{
+  float: right;
+  margin-left: 89%;
+  color: #000000;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.bottomnav{
+  display: flex;
+}
+p{
+  position: absolute;
+  margin-left: 41%;
+}
+.quem{
+  position: absolute;
+  float: left;
+  color: #000000;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
 }
