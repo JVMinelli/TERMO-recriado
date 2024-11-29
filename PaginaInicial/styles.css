@@ -30,39 +30,37 @@
     color: #000000;
     text-decoration: none;
 }
-.Quadrado1{
-    height: 50px;
-    width: 50px;
-    background-color: #ffffff;
-    margin-top: 20px;
-    border: 1px solid black;
-    margin-left: 50%;
-    display: flex;
-    float: left;
 
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px; /* Evitar sobreposição do cabeçalho */
 }
-.Quadrado2{
-    float: right;
-    height: 50px;
-    width: 50px;
-    margin-top: 20px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    margin-right: 41%;
-    display: flex;
+
+.game-board {
+  display: grid;
+  gap: 10px;
 }
-.Quadrado3{
-    float: left;
-    height: 50px;
-    width: 50px;
-    margin-top: 0px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    margin-left: 44.5%;
-    display: flex;
-    position: absolute;
-    top: 138px;
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  gap: 5px;
 }
+.quadrado {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #3a3a3c;
+  background-color: rgb(216, 214, 214);
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
 form {
     /* Apenas para centralizar o form na página */
     margin: 0 auto;
@@ -83,6 +81,7 @@ form {
   }
   body {
 font-family:'Times New Roman', Times, serif;
+background-color: rgb(216, 214, 214);
   }
   input,
 textarea{
@@ -137,4 +136,22 @@ p{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
+}
+.quadrado.typing {
+  color: #000000; 
+}
+
+.quadrado.correct {
+  background-color: #538d4e;
+  color: #ffffff; 
+}
+
+.quadrado.present {
+ background-color: #b59f3b;
+  color: #ffffff; 
+}
+
+.quadrado.absent {
+  background-color: #3a3a3c;
+  color: #ffffff; 
 }
