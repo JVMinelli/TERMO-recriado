@@ -36,7 +36,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 60px; /* Evitar sobreposição do cabeçalho */
+  padding-top: 60px; 
 }
 
 .game-board {
@@ -62,10 +62,8 @@ main {
 }
 
 form {
-    /* Apenas para centralizar o form na página */
     margin: 0 auto;
     width: 300px;
-    /* Para ver as bordas do formulário */
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
@@ -74,7 +72,6 @@ form {
     margin-top: 1em;
   }
   label {
-    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
     display: inline-block;
     width: 120px;
     text-align: left;
@@ -86,22 +83,21 @@ background-color: rgb(216, 214, 214);
   input,
 textarea{
 
-  /* Para dar o mesmo tamanho a todos os campo de texto */
+  
   width: 300px;
   height: 25px;
   font-size: 15px;
   
 
-  /* Para harmonizar o look & feel das bordas nos campos de texto*/
+  
   border: 1px solid #999;
 }
 
 .button {
-    /* Para posicionar os botões para a mesma posição dos campos de texto */
-    padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
+    
+    padding-left: 90px; 
   }
   button {
-    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
     margin-left: 0.5em;
   }
   
@@ -111,6 +107,7 @@ footer {
     position:fixed;
     bottom: 0;
     width: 1350px;
+    height: 50px;
     overflow: hidden;
 }
 .configuracao{
@@ -123,7 +120,7 @@ footer {
   font-size: 20px;
 }
 .bottomnav{
-  display: flex;
+  display:contents;
 }
 p{
   position: absolute;
@@ -154,4 +151,12 @@ p{
 .quadrado.absent {
   background-color: #3a3a3c;
   color: #ffffff; 
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  margin: 20px 0;
+  font-size: 20px;
 }
