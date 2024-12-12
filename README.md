@@ -23,6 +23,6 @@
 
 <H1>Links Relevantes:</H1>
 
-URL do site: JVMinelli.github.io/TERMO-recriado
+URL do site:<a href="JVMinelli.github.io/TERMO-recriado">JVMinelli.github.io/TERMO-recriado</a>
 <br>GitHub do projeto: github.com/JVMinelli
 
