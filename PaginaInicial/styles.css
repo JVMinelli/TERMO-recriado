@@ -1,0 +1,162 @@
+
+.topnav  {
+    background-color: #a5a4a4;
+    overflow: hidden;
+    
+}
+.instrucao {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+.contato{
+    float: right;
+    color: #000000;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav h1{
+    text-align: center;
+    
+}
+.titulo {
+    font-size:40px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px; 
+}
+
+.game-board {
+  display: grid;
+  gap: 10px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  gap: 5px;
+}
+.quadrado {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #3a3a3c;
+  background-color: rgb(216, 214, 214);
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+form {
+    margin: 0 auto;
+    width: 300px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  form div + div {
+    margin-top: 1em;
+  }
+  label {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+  }
+  body {
+font-family:'Times New Roman', Times, serif;
+background-color: rgb(216, 214, 214);
+  }
+  input,
+textarea{
+
+  
+  width: 300px;
+  height: 25px;
+  font-size: 15px;
+  
+
+  
+  border: 1px solid #999;
+}
+
+.button {
+    
+    padding-left: 90px; 
+  }
+  button {
+    margin-left: 0.5em;
+  }
+  
+footer {
+    background-color: #a5a4a4;
+    color: rgb(0, 0, 0);
+    position:fixed;
+    bottom: 0;
+    width: 1350px;
+    height: 50px;
+    overflow: hidden;
+}
+.configuracao{
+  float: right;
+  margin-left: 89%;
+  color: #000000;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.bottomnav{
+  display:contents;
+}
+p{
+  position: absolute;
+  margin-left: 41%;
+}
+.quem{
+  position: absolute;
+  float: left;
+  color: #000000;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.quadrado.typing {
+  color: #000000; 
+}
+
+.quadrado.correct {
+  background-color: #538d4e;
+  color: #ffffff; 
+}
+
+.quadrado.present {
+ background-color: #b59f3b;
+  color: #ffffff; 
+}
+
+.quadrado.absent {
+  background-color: #3a3a3c;
+  color: #ffffff; 
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  margin: 20px 0;
+  font-size: 20px;
+}
