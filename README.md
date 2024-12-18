@@ -25,4 +25,5 @@
 
 URL do site: JVMinelli.github.io/TERMO-recriado
 <br>GitHub do projeto: github.com/JVMinelli
+<br>Video tecnico: https://youtu.be/QtkjrVF3qOc
 
